@@ -1,1 +1,103 @@
-IyDrp4jtgazri6TsmrTsnbTrnoA/CgojIyBTdW1tYXJ5CuuniO2BrOuLpOyatOydgCDsnbzrsJgg7YWN7Iqk7Yq466GcIOusuOyEnOulvCDsnpHshLHtlaAg65WMIOyEnOyLneydhCDsib3qsowg7KeA7KCV7ZWgIOyImCDsnojrj4TroZ0g64+E7JmA7KO864qUIOqyveufiSDrp4jtgazsl4Ug7Ja47Ja07J6F64uI64ukLiDrsLDsmrDquLAg7Im96rOgIOqwgOuPheyEseydtCDrm7DslrTrgpjrqbAsIOuLpOyWke2VnCDtlIzrnqvtj7zsl5DshJwg64SQ66asIOyCrOyaqeuQmOyWtCDqsJzrsJzsnpDrv5Drp4wg7JWE64uI6528IOydvOuwmCDsgqzsmqnsnpDsl5Dqsozrj4Qg7Jyg7Jqp7ZWp64uI64ukLiDrs7XsnqHtlZwg7JuM65OcIO2UhOuhnOyEuOyEnCDsl4bsnbQg6rmU64GU7ZWcIOusuOyEnOulvCDruaDrpbTqsowg66eM65OkIOyImCDsnojsirXri4jri6QuCgojIyBCb2R5CgojIyMg66eI7YGs64uk7Jq07J20656AIOustOyXh+yduOqwgOyalD8K66eI7YGs64uk7Jq0KE1hcmtkb3duKeydgCAyMDA064WEIOyhtCDqt7jro6jrsoQoSm9obiBHcnViZXIp6rCAIOqwnOuwnO2VnCDthY3siqTtirgg6riw67CY7J2YIOuniO2BrOyXhSDslrjslrTsnoXri4jri6QuIEhUTUzqs7wg6rCZ7J20IOuzteyeoe2VnCDtg5zqt7gg7JeG7J2064+EIO2KueyImOusuOyekOulvCDsgqzsmqntlZjsl6wg7YWN7Iqk7Yq47JeQIOyEnOyLneydhCDsoIHsmqntlaAg7IiYIOyeiOuPhOuhnSDqs6DslYjrkJjsl4jsirXri4jri6QuIGAubWRgIOuYkOuKlCBgLm1hcmtkb3duYCDtmZXsnqXsnpDrpbwg6rCA7KeA66mwLCDsgqzrnozrj4Qg7Im96rKMIOydveydhCDsiJgg7J6I64qUIO2Yle2DnOuhnCDsnpHshLHrkKnri4jri6QuCgojIyMg7JmcIOuniO2BrOuLpOyatOydhCDsgqzsmqntlaDquYzsmpQ/CuuniO2BrOuLpOyatOydtCDrhJDrpqwg7IKs7Jqp65CY64qUIOyjvOyalCDsnbTsnKDripQg64uk7J2M6rO8IOqwmeyKteuLiOuLpDoKCiogICAqKuyJrOyatCDtlZnsirXqs7wg7IKs7JqpKio6IOusuOuyleydtCDrp6TsmrAg6rCE64uo7ZWY7JesIOuqhyDrtoQg7JWI7JeQIOq4sOuzuOyggeyduCDsgqzsmqnrspXsnYQg7J217Z6QIOyImCDsnojsirXri4jri6QuCiogICAqKuubsOyWtOuCnCDqsIDrj4XshLEqKjog7IaM7IqkIOy9lOuTnCDsnpDssrTqsIAg7J296riwIOyJveqzoCDquZTrgZTtlZjsl6wsIOuzhOuPhOydmCDroIzrjZTrp4Eg7JeG7J2064+EIOuCtOyaqeydhCDsnbTtlbTtlZjquLAg7Jqp7J207ZWp64uI64ukLgoqICAgKirri6TslpHtlZwg7ZSM656r7Y+8IOyngOybkCoqOiBHaXRIdWIsIEdpdExhYiwgTm90aW9uLCBPYnNpZGlhbiwgVlMgQ29kZSDrk7Eg7IiY66eO7J2AIOuPhOq1rOyZgCDshJzruYTsiqTsl5DshJwg66eI7YGs64uk7Jq07J2EIOyngOybkO2VqeuLiOuLpC4KKiAgICoq67KE7KCEIOq0gOumrCDsmqnsnbQqKjog7YWN7Iqk7Yq4IO2MjOydvOydtOuvgOuhnCBHaXTqs7wg6rCZ7J2AIOuyhOyghCDqtIDrpqwg7Iuc7Iqk7YWc7JeQ7IScIOuzgOqyvSDsnbTroKXsnYQg7LaU7KCB7ZWY6rOgIOuzke2Vqe2VmOq4sCDtjrjrpqztlanri4jri6QuCiogICAqKuu5oOuluCDrrLjshJwg7J6R7ISxKio6IOuniOyasOyKpOulvCDsgqzsmqntlZjsp4Ag7JWK6rOgIO2CpOuztOuTnOunjOycvOuhnCDruaDrpbTqsowg66y47ISc66W8IOq1rOyhsO2ZlO2VmOqzoCDshJzsi53snYQg7KCB7Jqp7ZWgIOyImCDsnojsirXri4jri6QuCgojIyMg66eI7YGs64uk7Jq0IOq4sOuzuCDrrLjrspUKCuqwgOyepSDsnpDso7wg7IKs7Jqp65CY64qUIOuniO2BrOuLpOyatCDrrLjrspXsnYQg7Ya17ZW0IOyLpOygnCDsoIHsmqkg67Cp67KV7J2EIOyVjOyVhOuztOqyoOyKteuLiOuLpC4KCiMjIyMgMS4g7KCc66qpIChIZWFkaW5ncykKYCNg7J2YIOqwnOyImOuhnCDsoJzrqqnsnZgg64uo6rOE66W8IO2RnO2YhO2VqeuLiOuLpC4gYCNg7J2AIEgxLCBgIyNg7J2AIEgy7JmAIOqwmeyKteuLiOuLpC4KCmBgYG1hcmtkb3duCiMg7J206rKD7J2AIEgxIOygnOuqqeyeheuLiOuLpAojIyDsnbTqsoPsnYAgSDIg7KCc66qp7J6F64uI64ukCiMjIyDsnbTqsoPsnYAgSDMg7KCc66qp7J6F64uI64ukCmBgYAoKIyMjIyAyLiDrqqnroZ0gKExpc3RzKQrsiJzshJwg7JeG64qUIOuqqeuhneydgCBgKmAsIGAtYCwgYCtgIOykkSDtlZjrgpjrpbwg7IKs7Jqp7ZWY6rOgLCDsiJzshJwg7J6I64qUIOuqqeuhneydgCDsiKvsnpDrpbwg7IKs7Jqp7ZWp64uI64ukLgoKYGBgbWFya2Rvd24KKiDssqsg67KI7Ke4IO2VreuqqQoqIOuRkCDrsojsp7gg7ZWt66qpCiAgLSDtlZjsnIQg7ZWt66qpIDEKICAtIO2VmOychCDtla3rqqkgMgoKMS4g7Iic7IScIOyeiOuKlCDrqqnroZ0gMQoyLiDsiJzshJwg7J6I64qUIOuqqeuhnSAyCmBgYAoKIyMjIyAzLiDqsJXsobAgKEVtcGhhc2lzKQrthY3siqTtirjrpbwg6riw7Jq47J206rGw64KYKOydtO2DpOumrSkg6rW16rKMKOuzvOuTnCkg7ZGc7Iuc7ZWgIOyImCDsnojsirXri4jri6QuCgpgYGBtYXJrZG93bgoq6riw7Jq47J6E7LK0IO2FjeyKpO2KuCog65iQ64qUIF/quLDsmrjsnoTssrQg7YWN7Iqk7Yq4XwoqKuq1teydgCDthY3siqTtirgqKiDrmJDripQgX1/qtbXsnYAg7YWN7Iqk7Yq4X18KKioq6rW16rOgIOq4sOyauOyduCDthY3siqTtirgqKioKYGBgCgojIyMjIDQuIOy9lOuTnCDruJTroZ0gKENvZGUgQmxvY2tzKQrsnbjrnbzsnbgg7L2U65Oc64qUIOuwse2LsShgKeycvOuhnCDqsJDsi7jqs6AsIOyXrOufrCDspITsnZgg7L2U65OcIOu4lOuhneydgCDshLgg6rCc7J2YIOuwse2LsShgYGAp7Jy866GcIOqwkOyLuOupsCDslrjslrTrpbwg7KeA7KCV7ZWgIOyImCDsnojsirXri4jri6QuCgpgYGBtYXJrZG93bgpgaW50IGEgPSAxMDtgIOyymOufvCDsnbjrnbzsnbgg7L2U65Oc66W8IOyekeyEse2VoCDsiJgg7J6I7Iq164uI64ukLgoKYGBgcHl0aG9uCmRlZiBoZWxsb193b3JsZCgpOgogICAgcHJpbnQoIkhlbGxvLCBNYXJrZG93biEiKQpgYGAKYGBgCgojIyMjIDUuIOunge2BrCAoTGlua3MpCmBb66eB7YGsIO2FjeyKpO2KuF0oVVJMKWAg7ZiV7Iud7Jy866GcIOyekeyEse2VqeuLiOuLpC4KCmBgYG1hcmtkb3duCltHb29nbGXroZwg7J2064+ZXShodHRwczovL3d3dy5nb29nbGUuY29tKQpgYGAKCiMjIyMgNi4g7J2066+47KeAIChJbWFnZXMpCmAhW+uMgOyytCDthY3siqTtirhdKOydtOuvuOyngCBVUkwpYCDtmJXsi53snLzroZwg7J6R7ISx7ZWp64uI64ukLiDrp4HtgazsmYAg7Jyg7IKs7ZWY7KeA66eMIOyVnuyXkCBgIWDqsIAg67aZ7Iq164uI64ukLgoKYGBgbWFya2Rvd24KIVvrp4jtgazri6TsmrQg66Gc6rOgXShodHRwczovL3VwbG9hZC53aWtpbWVkaWEub3JnL3dpa2lwZWRpYS9jb21tb25zLzQvNDgvTWFya2Rvd24tbWFyay5zdmcpCmBgYAoKIyMjIyA3LiDsnbjsmqnrrLggKEJsb2NrcXVvdGVzKQpgPmAg6riw7Zi466W8IOyCrOyaqe2VmOyXrCDsnbjsmqnrrLjsnYQg7ZGc7Iuc7ZWp64uI64ukLgoKYGBgbWFya2Rvd24KPiAi66eI7YGs64uk7Jq07J2AIOygleunkCDtjrjrpqztlanri4jri6QhIgo+IC0gVElMIOu4lOuhnOq3uCDspJHsl5DshJwKYGBgCgojIyMjIDguIOyImO2PieyEoCAoSG9yaXpvbnRhbCBSdWxlcykKYC0tLWAsIGAqKipgLCBgX19fYCDspJEg7IS4IOqwnCDsnbTsg4HsnYQg7IKs7Jqp7ZW0IOyImO2PieyEoOydhCDqt7jsnYQg7IiYIOyeiOyKteuLiOuLpC4KCmBgYG1hcmtkb3duCi0tLQpgYGAKCuydtOyymOufvCDrp4jtgazri6TsmrTsnYAg6rCE64uo7ZWcIOusuOuyleunjOycvOuhnOuPhCDssrTqs4TsoIHsnbTqs6Ag6rCA64+F7ISxIOuGkuydgCDrrLjshJzrpbwg7J6R7ISx7ZWgIOyImCDsnojqsowg7ZW07KO864qUIOqwleugpe2VnCDrj4TqtazsnoXri4jri6QuCgojIyBUYWdzCi0g66eI7YGs64uk7Jq0Ci0g6rCc67CcCi0g66y47ISc7J6R7ISxCi0gVElMCi0g7YWN7Iqk7Yq4Cg==
+# 마크다운이란?
+
+## Summary
+마크다운은 일반 텍스트로 문서를 작성할 때 서식을 쉽게 지정할 수 있도록 도와주는 경량 마크업 언어입니다. 배우기 쉽고 가독성이 뛰어나며, 다양한 플랫폼에서 널리 사용되어 개발자뿐만 아니라 일반 사용자에게도 유용합니다. 복잡한 워드 프로세서 없이 깔끔한 문서를 빠르게 만들 수 있습니다.
+
+## Body
+
+### 마크다운이란 무엇인가요?
+마크다운(Markdown)은 2004년 존 그루버(John Gruber)가 개발한 텍스트 기반의 마크업 언어입니다. HTML과 같이 복잡한 태그 없이도 특수문자를 사용하여 텍스트에 서식을 적용할 수 있도록 고안되었습니다. `.md` 또는 `.markdown` 확장자를 가지며, 사람도 쉽게 읽을 수 있는 형태로 작성됩니다.
+
+### 왜 마크다운을 사용할까요?
+마크다운이 널리 사용되는 주요 이유는 다음과 같습니다:
+
+*   **쉬운 학습과 사용**: 문법이 매우 간단하여 몇 분 안에 기본적인 사용법을 익힐 수 있습니다.
+*   **뛰어난 가독성**: 소스 코드 자체가 읽기 쉽고 깔끔하여, 별도의 렌더링 없이도 내용을 이해하기 용이합니다.
+*   **다양한 플랫폼 지원**: GitHub, GitLab, Notion, Obsidian, VS Code 등 수많은 도구와 서비스에서 마크다운을 지원합니다.
+*   **버전 관리 용이**: 텍스트 파일이므로 Git과 같은 버전 관리 시스템에서 변경 이력을 추적하고 병합하기 편리합니다.
+*   **빠른 문서 작성**: 마우스를 사용하지 않고 키보드만으로 빠르게 문서를 구조화하고 서식을 적용할 수 있습니다.
+
+### 마크다운 기본 문법
+
+가장 자주 사용되는 마크다운 문법을 통해 실제 적용 방법을 알아보겠습니다.
+
+#### 1. 제목 (Headings)
+`#`의 개수로 제목의 단계를 표현합니다. `#`은 H1, `##`은 H2와 같습니다.
+
+```markdown
+# 이것은 H1 제목입니다
+## 이것은 H2 제목입니다
+### 이것은 H3 제목입니다
+```
+
+#### 2. 목록 (Lists)
+순서 없는 목록은 `*`, `-`, `+` 중 하나를 사용하고, 순서 있는 목록은 숫자를 사용합니다.
+
+```markdown
+* 첫 번째 항목
+* 두 번째 항목
+  - 하위 항목 1
+  - 하위 항목 2
+
+1. 순서 있는 목록 1
+2. 순서 있는 목록 2
+```
+
+#### 3. 강조 (Emphasis)
+텍스트를 기울이거나(이탤릭) 굵게(볼드) 표시할 수 있습니다.
+
+```markdown
+*기울임체 텍스트* 또는 _기울임체 텍스트_
+**굵은 텍스트** 또는 __굵은 텍스트__
+***굵고 기울인 텍스트***
+```
+
+#### 4. 코드 블록 (Code Blocks)
+인라인 코드는 백틱(`)으로 감싸고, 여러 줄의 코드 블록은 세 개의 백틱(```)으로 감싸며 언어를 지정할 수 있습니다.
+
+```markdown
+`int a = 10;` 처럼 인라인 코드를 작성할 수 있습니다.
+
+```python
+def hello_world():
+    print("Hello, Markdown!")
+```
+```
+
+#### 5. 링크 (Links)
+`[링크 텍스트](URL)` 형식으로 작성합니다.
+
+```markdown
+[Google로 이동](https://www.google.com)
+```
+
+#### 6. 이미지 (Images)
+`![대체 텍스트](이미지 URL)` 형식으로 작성합니다. 링크와 유사하지만 앞에 `!`가 붙습니다.
+
+```markdown
+![마크다운 로고](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
+```
+
+#### 7. 인용문 (Blockquotes)
+`>` 기호를 사용하여 인용문을 표시합니다.
+
+```markdown
+> "마크다운은 정말 편리합니다!"
+> - TIL 블로그 중에서
+```
+
+#### 8. 수평선 (Horizontal Rules)
+`---`, `***`, `___` 중 세 개 이상을 사용해 수평선을 그을 수 있습니다.
+
+```markdown
+---
+```
+
+이처럼 마크다운은 간단한 문법만으로도 체계적이고 가독성 높은 문서를 작성할 수 있게 해주는 강력한 도구입니다.
+
+## Tags
+- 마크다운
+- 개발
+- 문서작성
+- TIL
+- 텍스트
