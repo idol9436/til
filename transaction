@@ -1,0 +1,112 @@
+# 스프링 @Transactional 총정리
+
+## Summary
+`@Transactional` 어노테이션은 스프링에서 데이터베이스 트랜잭션을 선언적으로 관리하는 핵심 기능입니다. 이를 통해 개발자는 복잡한 트랜잭션 로직을 직접 구현할 필요 없이, 비즈니스 로직에 집중하며 데이터의 일관성과 무결성을 보장하는 데 도움을 받을 수 있습니다.
+
+## Body
+
+### 트랜잭션: 데이터 일관성의 핵심
+데이터베이스 트랜잭션은 데이터베이스의 상태를 변경하는 일련의 연산들을 하나의 논리적인 작업 단위로 묶는 기능입니다. 모든 연산이 성공적으로 완료되면 `COMMIT`되고, 하나라도 실패하면 모든 연산이 `ROLLBACK`되어 데이터의 일관성과 무결성(ACID)을 보장합니다.
+
+스프링은 이러한 복잡한 트랜잭션 관리를 `@Transactional` 어노테이션을 통해 선언적으로 처리할 수 있도록 추상화 계층을 제공합니다. 개발자는 비즈니스 로직에만 집중하며 트랜잭션 관리를 스프링에 위임할 수 있습니다.
+
+### `@Transactional` 어노테이션 사용법
+`@Transactional`은 클래스 또는 메서드 레벨에 적용하여 해당 범위의 모든 데이터베이스 작업을 하나의 트랜잭션으로 묶습니다.
+
+#### 기본 사용 예시
+
+```java
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.data.jpa.repository.JpaRepository; // 예시를 위한 가정
+
+// @Entity
+// public class User { /* ... */ } // User 엔티티 가정
+
+@Service
+public class UserService {
+
+    @Autowired
+    private UserRepository userRepository; // 가정: JpaRepository를 상속한 인터페이스
+
+    // 이 메서드 내에서 발생하는 모든 DB 작업은 하나의 트랜잭션으로 묶입니다.
+    // 런타임 예외 발생 시 자동으로 롤백됩니다.
+    @Transactional
+    public User createUser(String name, String email) {
+        User user = new User(name, email);
+        userRepository.save(user); // 첫 번째 DB 작업
+        // ... 추가적인 DB 작업 ...
+        // 만약 여기서 런타임 예외 발생 시, user 저장을 포함한 모든 작업 롤백
+        return user;
+    }
+
+    @Transactional(readOnly = true) // 읽기 전용 트랜잭션으로 성능 최적화
+    public User getUserById(Long id) {
+        return userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("User not found"));
+    }
+}
+```
+
+### `@Transactional` 주요 속성
+`@Transactional` 어노테이션은 다양한 속성을 통해 트랜잭션의 동작 방식을 세밀하게 제어할 수 있습니다.
+
+*   **`propagation` (전파 레벨)**: 여러 트랜잭션이 중첩되어 호출될 때, 트랜잭션의 경계를 어떻게 형성할지 정의합니다.
+    *   `REQUIRED` (기본값): 진행 중인 트랜잭션이 있으면 참여하고, 없으면 새로 시작합니다.
+    *   `REQUIRES_NEW`: 항상 새로운 트랜잭션을 시작하며, 기존 트랜잭션은 잠시 보류합니다.
+    *   `NESTED`: 기존 트랜잭션 내에서 중첩 트랜잭션을 생성합니다. (JDBC Savepoint 이용)
+
+*   **`isolation` (격리 레벨)**: 여러 트랜잭션이 동시에 실행될 때, 서로의 변경 내용을 얼마나 볼 수 있게 할지 정의합니다. 데이터 무결성과 동시성 사이의 균형을 맞춥니다.
+    *   `DEFAULT` (기본값): 사용하는 데이터베이스의 기본 격리 레벨을 따릅니다.
+    *   `READ_COMMITTED`: 커밋된 데이터만 읽을 수 있습니다. (가장 흔하게 사용)
+    *   `REPEATABLE_READ`: 트랜잭션 시작 시점의 데이터를 반복해서 읽을 수 있습니다.
+
+*   **`readOnly` (읽기 전용)**: `true`로 설정하면 해당 트랜잭션은 데이터를 변경하지 않음을 명시합니다. 데이터베이스 드라이버나 ORM 프레임워크가 성능 최적화를 수행할 수 있도록 힌트를 제공합니다.
+
+*   **`rollbackFor`, `noRollbackFor` (롤백 조건)**:
+    *   기본적으로 스프링 트랜잭션은 언체크 예외(`RuntimeException` 및 그 하위 클래스) 발생 시 롤백합니다.
+    *   `rollbackFor`: 특정 체크드 예외 발생 시에도 롤백하도록 지정합니다.
+    *   `noRollbackFor`: 특정 예외 발생 시 롤백하지 않도록 지정합니다.
+
+*   **`timeout` (타임아웃)**: 트랜잭션이 완료되기까지 허용되는 최대 시간을 초(seconds) 단위로 지정합니다. 시간이 초과되면 롤백됩니다.
+
+#### 속성 활용 예시
+
+```java
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Isolation;
+
+// ... (UserService 클래스 내부)
+    @Transactional(
+        propagation = Propagation.REQUIRES_NEW,          // 항상 새로운 트랜잭션 시작
+        isolation = Isolation.READ_COMMITTED,            // 커밋된 데이터만 읽음
+        readOnly = false,                                // 쓰기 가능 트랜잭션
+        timeout = 10,                                    // 10초 내에 완료되지 않으면 롤백
+        rollbackFor = { CustomBusinessException.class }  // CustomBusinessException 발생 시 롤백
+    )
+    public void updateUserInfo(Long userId, String newName) throws CustomBusinessException {
+        User user = userRepository.findById(userId)
+                                  .orElseThrow(() -> new IllegalArgumentException("User not found"));
+        user.setName(newName);
+        userRepository.save(user);
+
+        if (newName.equals("invalid")) {
+            throw new CustomBusinessException("Invalid name provided.");
+        }
+    }
+// ... (CustomBusinessException 클래스 예시)
+// public class CustomBusinessException extends Exception { // 체크드 예외
+//     public CustomBusinessException(String message) { super(message); }
+// }
+```
+
+### 주의사항
+*   **자가 호출 (Self-invocation)**: `public` 메서드에 `@Transactional`을 적용하더라도, 같은 클래스 내의 다른 메서드가 `@Transactional`이 적용된 메서드를 호출하면 트랜잭션이 적용되지 않을 수 있습니다. 이는 스프링 AOP 프록시 방식의 한계 때문입니다. 이를 해결하려면 별도의 유틸리티 클래스로 분리하거나 AOP 설정을 조정해야 합니다.
+*   **체크드 예외 vs. 언체크 예외**: 스프링은 기본적으로 언체크 예외(`RuntimeException`)에 대해서만 롤백합니다. 체크드 예외(`Exception`) 발생 시에는 `rollbackFor` 속성을 명시적으로 지정해야 롤백됩니다.
+
+## Tags
+- 스프링
+- 트랜잭션
+- @Transactional
+- 자바
+- 개발
